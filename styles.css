@@ -1,6 +1,25 @@
 #seccion1{
     /* Fondo color oscuro */
     background-color: #3B3B3B;
+
+    /* Ancho de la seccion */
+    /* width: 400px; */
+
+    /* Alto de la seccion */
+    /* height: 200px; */
+    /* Alto automatico (RECOMENDABLE) */
+    height: auto;
+
+    max-width: 500px;
+    min-width: 200px;
+    /* max-height: 500px;
+    min-height: 400px; */
+}
+
+article{
+    background: #797979;
+    /* Se puede aplicar un alto definido */
+    height: 150px;
 }
 
 /* Opcion 1: Llamado independiente */
