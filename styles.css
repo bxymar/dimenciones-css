@@ -1,7 +1,22 @@
-section{
-    width: 100%;
-    min-width: 300px;
-    max-width: 800px;
-    height: 200px;
-    background-color: brown;
+#seccion1{
+    /* Fondo color oscuro */
+    background-color: #3B3B3B;
+}
+
+/* Opcion 1: Llamado independiente */
+/* .titulo{
+    color: #DBDBDB;
+}
+.concepto{
+    color: #DBDBDB;
+} */
+
+/* Opcion 2: Llamado global */
+.titulo, .concepto{
+    color: #DBDBDB;
+    font-family: cursive;
+}
+
+.titulo{
+    font-size: 40px;
 }
